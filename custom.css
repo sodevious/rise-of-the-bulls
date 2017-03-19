@@ -1,0 +1,25 @@
+/* Homepage */
+
+.rb-homepage-hero h1 {
+  font-size: 85px;
+  font-style: italic;
+}
+
+.rb-homepage-hero p {
+  margin-top: 30px;
+  font-size: 22px;
+  display: block;
+}
+
+.rb-homepage-revolution h2 {
+  font-size: 56px;
+}
+
+.rb-homepage-revolution p {
+  font-size: 22px;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+}
+
+.rb-homepage-lookingfor p {
+    font-size: 18px;
+}
