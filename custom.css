@@ -1,5 +1,46 @@
-/* Homepage */
 
+/* Header */
+.home .edgtf-mobile-header,
+.home .edgtf-mobile-header-inner {
+    display: none;
+}
+
+.edgtf-header-standard .edgtf-menu-area {
+    border-bottom: 1px solid rgba(0,0,0,0.075);
+}
+
+.edgtf-header-standard .edgtf-right-from-main-menu-holder {
+    border-left: 1px solid rgba(0,0,0,0.075);
+}
+
+.edgtf-side-menu-button-opener {
+    display: none;
+}
+
+/* Logo */
+.edgtf-logo-wrapper a img {
+    height: 48px;
+}
+.header-appear .edgtf-logo-wrapper a img.edgtf-normal-logo {
+    height: 42px;
+    margin: 7px 0;
+}
+
+.edgtf-logo-wrapper a img.edgtf-normal-logo {
+    margin: 12px;
+}
+
+.edgtf-logo-wrapper a img.edgtf-light-logo {
+    position: relative;
+    top: -10px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-logo-wrapper img {
+    height: 50%;
+    margin: 20px;
+}
+
+/* Homepage Hero */
 .rb-homepage-hero h1 {
   font-size: 85px;
   font-style: italic;
@@ -7,19 +48,101 @@
 
 .rb-homepage-hero p {
   margin-top: 30px;
-  font-size: 22px;
-  display: block;
 }
 
 .rb-homepage-revolution h2 {
   font-size: 56px;
 }
 
-.rb-homepage-revolution p {
-  font-size: 22px;
-  text-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+.rb-homepage-boxes .edgtf-numbered-boxes-holder .edgtf-numbered-box .edgtf-numbered-link {
+  display: none;
 }
 
-.rb-homepage-lookingfor p {
-    font-size: 18px;
+.rb-instagram {
+  text-align: center;
+}
+
+.rb-instagram p {
+  padding: 30px 0px;
+  margin: 0px auto;
+  max-width: 600px;
+}
+
+/* Footer */
+.edgtf-footer-bottom-left .menu {
+    margin: 0;
+}
+
+.edgtf-footer-bottom-left .menu-item  {
+    display: inline-block;
+    padding-bottom: 0;
+    padding-top: 2px;
+    padding-left: 25px;
+}
+
+.edgtf-footer-bottom-left .textwidget {
+    margin-right: 25px;
+    margin-top: 3px;
+}
+
+/* Shared Styles */
+.rb-homepage-hero h1,
+.rb-bullring-hero h2,
+.rb-homepage-thatsme h2 {
+    color: white;
+}
+
+.rb-bullring-hero p,
+.rb-homepage-hero p,
+.rb-homepage-revolution p,
+.rb-homepage-thatsme p {
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.6);
+    color: white;
+}
+
+
+/* Mobile */
+@media (min-width: 992px) {
+    .rb-bullring-hero p,
+    .rb-homepage-hero p,
+    .rb-homepage-revolution p,
+    .rb-homepage-thatsme p
+    .rb-instagram p,
+    .rb-homepage-lookingfor p {
+        font-size: 21px;
+        display: block;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 992px) {
+    .rb-bullring .vc_column-inner,
+    .rb-homepage-thatsme,
+    .rb-homepage-lookingfor {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .rb-homepage-thatsme .wpb_text_column,
+    .rb-homepage-hero .vc_column-inner,
+    .rb-bullring-what .vc_column-inner,
+    .rb-homepage-revolution .vc_column-inner {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .hi {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .hi {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .rb-homepage-thatsme .vc_empty_space,
+    .rb-homepage-lookingfor__empty {
+        display: none;
+    }
 }
